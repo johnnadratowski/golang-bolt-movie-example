@@ -1,6 +1,6 @@
 # Neo4j Movies Example Application
 
-**Shamelessly modified from https://github.com/neo4j-examples/movies-go-cq**
+*Shamelessly modified from https://github.com/neo4j-examples/movies-go-cq*
 
 ### Stack
 
