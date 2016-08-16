@@ -11,7 +11,7 @@
 
 Get Movie
 
-`bash
+```bash
 # JSON object for single movie with cast
 curl http://bolt-neo4j-movies.herokuapp.com/movie/The%20Matrix
 
@@ -20,7 +20,7 @@ curl http://bolt-neo4j-movies.herokuapp.com/search?q=matrix
 
 # JSON object for whole graph viz (nodes, links - arrays)
 curl http://bolt-neo4j-movies.herokuapp.com/graph
-`
+```
 
 ### Setup
 
@@ -33,9 +33,9 @@ Then install the Movies data-set with `:play movies`, click the statement, and h
 
 Start this application with:
 
-`bash
+```bash
 NEO4J_URL=bolt://localhost:7687/ PORT=8080 go run server.go
-`
+```
 
 Go to http://localhost:8080
 
@@ -43,7 +43,7 @@ You can search for movies by title or and click on any entry.
 
 # Deploy to Heroku
 
-`bash
+```bash
 # create a new app with the go buildpack
 heroku create -b https://github.com/kr/heroku-buildpack-go.git
 
@@ -52,4 +52,4 @@ heroku create -b https://github.com/kr/heroku-buildpack-go.git
 
 # push to heroku
 git push heroku master
-`
+```
