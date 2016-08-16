@@ -287,5 +287,7 @@ func main() {
 	if port == "" {
 		port = "8080"
 	}
+
+	log.Printf("Starting server on port %s with neo4j %s", port, neo4jURL)
 	panic(http.ListenAndServe(":"+port, serveMux))
 }
