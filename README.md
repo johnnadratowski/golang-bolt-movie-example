@@ -7,7 +7,7 @@
 * Go 
 * [Golang Neo4j Bolt Driver](https://github.com/johnnadratowski/golang-neo4j-bolt-driver)
 * Neo4j-Server
-* Frontend: jquery, bootstrap, http://d3js.org/[d3.js]
+* Frontend: jquery, bootstrap, [d3.js](http://d3js.org/)
 
 ### Endpoints:
 
