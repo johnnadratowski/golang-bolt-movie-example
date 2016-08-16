@@ -3,7 +3,7 @@
 ### Stack
 
 * Go 
-* (Golang Neo4j Bolt Driver)[https://github.com/johnnadratowski/golang-neo4j-bolt-driver]
+* [Golang Neo4j Bolt Driver](https://github.com/johnnadratowski/golang-neo4j-bolt-driver)
 * Neo4j-Server
 * Frontend: jquery, bootstrap, http://d3js.org/[d3.js]
 
@@ -28,7 +28,7 @@ This uses the Go standard library HTTP server, along with the Golang Neo4j Bolt 
 
 ### Run locally:
 
-Start your local Neo4j Server (Download & Install)[http://neo4j.com/download], open the (Neo4j Browser)[http://localhost:7474].
+Start your local Neo4j Server [Download & Install](http://neo4j.com/download), open the [Neo4j Browser](http://localhost:7474).
 Then install the Movies data-set with `:play movies`, click the statement, and hit the triangular "Run" button.
 
 Start this application with:
