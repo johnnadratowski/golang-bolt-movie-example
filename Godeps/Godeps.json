@@ -1,0 +1,35 @@
+{
+	"ImportPath": "github.com/johnnadratowski/golang-bolt-movie-example",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Deps": [
+		{
+			"ImportPath": "github.com/johnnadratowski/golang-neo4j-bolt-driver",
+			"Rev": "cbce611fd243658cc56a502d6edc81af26400103"
+		},
+		{
+			"ImportPath": "github.com/johnnadratowski/golang-neo4j-bolt-driver/encoding",
+			"Rev": "cbce611fd243658cc56a502d6edc81af26400103"
+		},
+		{
+			"ImportPath": "github.com/johnnadratowski/golang-neo4j-bolt-driver/errors",
+			"Rev": "cbce611fd243658cc56a502d6edc81af26400103"
+		},
+		{
+			"ImportPath": "github.com/johnnadratowski/golang-neo4j-bolt-driver/log",
+			"Rev": "cbce611fd243658cc56a502d6edc81af26400103"
+		},
+		{
+			"ImportPath": "github.com/johnnadratowski/golang-neo4j-bolt-driver/structures",
+			"Rev": "cbce611fd243658cc56a502d6edc81af26400103"
+		},
+		{
+			"ImportPath": "github.com/johnnadratowski/golang-neo4j-bolt-driver/structures/graph",
+			"Rev": "cbce611fd243658cc56a502d6edc81af26400103"
+		},
+		{
+			"ImportPath": "github.com/johnnadratowski/golang-neo4j-bolt-driver/structures/messages",
+			"Rev": "cbce611fd243658cc56a502d6edc81af26400103"
+		}
+	]
+}
