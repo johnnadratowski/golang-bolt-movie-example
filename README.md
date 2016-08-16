@@ -35,7 +35,7 @@ Start this application with:
 
 [source,shell]
 ----
-PORT=8080 go run server.go
+NEO4J_URL=bolt://localhost:7687/ PORT=8080 go run server.go
 ----
 
 Go to http://localhost:8080
@@ -49,8 +49,8 @@ You can search for movies by title or and click on any entry.
 # create a new app with the go buildpack
 heroku create -b https://github.com/kr/heroku-buildpack-go.git
 
-# edit the .env file to point to your graphenedb
-echo “NEO4J_URL=bolt://user:pass@graphene-url.com:23768/?tls=true” > .env
+# Be sure to set your NEO4J_URL in the Heroku configs.
+# I used GrapheneDB to host the Neo4j instance 
 
 # push to heroku
 git push heroku master
