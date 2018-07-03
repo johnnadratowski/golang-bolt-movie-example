@@ -51,7 +51,8 @@ type Link struct {
 }
 
 var (
-	neo4jURL = "bolt://localhost:7687"
+      //neo4jURL = "bolt://localhost:7687"
+	neo4jURL = "bolt://hobby-edjhdnjopdcbgbkeelidajbl.dbs.graphenedb.com:24786"
 )
 
 func interfaceSliceToString(s []interface{}) []string {
